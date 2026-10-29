@@ -1,5 +1,7 @@
 # Mara Slipstream CLI (`mara.py`)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Script de terminal para enviar transações Bitcoin pela **Slipstream**, o serviço da
 pool **MARA** que aceita transações grandes ou fora do padrão diretamente, sem
 passar pela fila normal do mempool.
@@ -205,4 +207,36 @@ função `obter_taxas()`, mas o menu usa o código padrão.
 Ferramenta pessoal, sem vínculo com a MARA. Use por sua conta e risco; confira o
 TXID e o valor da taxa antes de confiar em transações de valor alto.
 
-Licença: adicione a que preferir (MIT, por exemplo) em um arquivo `LICENSE`.
+---
+
+## Licença
+
+Distribuído sob a **licença MIT** — veja o arquivo [LICENSE](LICENSE) para o texto completo.
+
+```
+MIT License
+
+Copyright (c) 2026 Tadeu Cadilhe
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+Em resumo: você pode usar, copiar, modificar, publicar, distribuir, sublicenciar e
+vender o software, desde que mantenha o aviso de copyright e esta licença. O
+software é fornecido **sem garantias** de qualquer tipo.
